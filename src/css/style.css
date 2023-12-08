@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    margin-left: 1rem;
+    color:aliceblue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label{
+    margin-left: 1rem;
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background-color: #44A08D;
+    color:aliceblue;
+
+}
+
+h1:hover{
+    color:black;
+    text-decoration:underline
+}
+
+button{
+    margin-left: 1rem;
+    border-radius: 15px;
+    border:none;
+    padding-block-start: 5px;
+    padding-block-end: 5px;
+    color:#44A08D;
+    background-color: rgb(244, 241, 241);
+    margin-block-start: 2%;
+}
+input{
+    text-align: center;
+    border-radius: 15px;
+    border:none;
+    padding-block-start: 5px;
+    padding-block-end: 5px;
+}
+
+p{
+    margin-left: 1rem;
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright{
+    position: relative;
+    margin-block-start: 40%;
+    text-align: center;
+}
